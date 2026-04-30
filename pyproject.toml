@@ -1,0 +1,12 @@
+[project]
+name = "llm-ai-edu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=2.33.0",
+    "pymupdf>=1.27.2.3",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+]

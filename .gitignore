@@ -23,6 +23,24 @@ chroma_store/
 # PDF files
 *.pdf
 
+# uv
+uv.lock
+.python-version
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
 # IDE
 .vscode/
 .idea/
@@ -30,3 +48,4 @@ chroma_store/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
