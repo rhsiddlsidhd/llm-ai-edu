@@ -1,5 +1,32 @@
+# Environment
 .env
+.env.*
+
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
-chroma_store/pdf/OneNYC_2050_Strategic_Plan.pdf
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB
+chroma_store/
+
+# PDF files
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
